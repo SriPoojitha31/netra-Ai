@@ -1,0 +1,31 @@
+# Core
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+streamlit>=1.25.0
+
+# Data & ML
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.2
+xgboost>=1.7.6
+joblib>=1.3.2
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+
+# URL & networking
+tldextract>=3.4.0
+python-whois>=0.9.19
+requests>=2.31.0
+
+# Explainability / optional (SHAP heavy - optional)
+shap>=0.41.0
+
+# DB & utils
+sqlalchemy>=2.0.15
+alembic>=1.11.0   # optional for migrations
+sqlite-utils>=3.36  # optional helper
+
+# Dev
+jupyterlab>=4.0.0
+matplotlib>=3.7.1
+seaborn>=0.12.2
